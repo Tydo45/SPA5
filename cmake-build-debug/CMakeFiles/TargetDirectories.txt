@@ -1,0 +1,3 @@
+C:/Users/weberbw/CLionProjects/CSC2210/SPA5/cmake-build-debug/CMakeFiles/SPA5.dir
+C:/Users/weberbw/CLionProjects/CSC2210/SPA5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/weberbw/CLionProjects/CSC2210/SPA5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
