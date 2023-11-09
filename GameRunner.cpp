@@ -57,7 +57,7 @@ void helpMenu() {
                  "Each turn you have the option to shoot your weapon into an adjacent tile or move into an adjacent tile" << std::endl <<
                  "Running out of arrows removes you ability to fire you weapon, you can find extra arrows in random tiles across the map." << std::endl;
     std::cout << std::endl;
-    std::cout << "Rival Hunter – The Rival Hunter is a moving hazard on the map, he moves once per turn and can end the game by either:" << std::endl;
+    std::cout << "Rival Hunter - The Rival Hunter is a moving hazard on the map, he moves once per turn and can end the game by either:" << std::endl;
     std::cout << "a) Killing you when you enter his tile" << std::endl;
     std::cout << "b) Killing the Wumpus before you can" << std::endl;
     std::cout << "The rival hunter can be killed, in the same way the Wumpus is, and if killed drops an upgraded weapon, the Crossbow." << std::endl;

@@ -55,6 +55,24 @@ build CMakeFiles/SPA5.dir/GameRunner.cpp.obj: CXX_COMPILER__SPA5_unscanned_Debug
   OBJECT_DIR = CMakeFiles\SPA5.dir
   OBJECT_FILE_DIR = CMakeFiles\SPA5.dir
 
+build CMakeFiles/SPA5.dir/Map.cpp.obj: CXX_COMPILER__SPA5_unscanned_Debug C$:/Users/weberbw/CLionProjects/CSC2210/SPA5/Map.cpp || cmake_object_order_depends_target_SPA5
+  DEP_FILE = CMakeFiles\SPA5.dir\Map.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SPA5.dir
+  OBJECT_FILE_DIR = CMakeFiles\SPA5.dir
+
+build CMakeFiles/SPA5.dir/MapCell.cpp.obj: CXX_COMPILER__SPA5_unscanned_Debug C$:/Users/weberbw/CLionProjects/CSC2210/SPA5/MapCell.cpp || cmake_object_order_depends_target_SPA5
+  DEP_FILE = CMakeFiles\SPA5.dir\MapCell.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SPA5.dir
+  OBJECT_FILE_DIR = CMakeFiles\SPA5.dir
+
+build CMakeFiles/SPA5.dir/RoomEvent.cpp.obj: CXX_COMPILER__SPA5_unscanned_Debug C$:/Users/weberbw/CLionProjects/CSC2210/SPA5/RoomEvent.cpp || cmake_object_order_depends_target_SPA5
+  DEP_FILE = CMakeFiles\SPA5.dir\RoomEvent.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SPA5.dir
+  OBJECT_FILE_DIR = CMakeFiles\SPA5.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target SPA5
@@ -63,7 +81,7 @@ build CMakeFiles/SPA5.dir/GameRunner.cpp.obj: CXX_COMPILER__SPA5_unscanned_Debug
 #############################################
 # Link the executable SPA5.exe
 
-build SPA5.exe: CXX_EXECUTABLE_LINKER__SPA5_Debug CMakeFiles/SPA5.dir/GameRunner.cpp.obj
+build SPA5.exe: CXX_EXECUTABLE_LINKER__SPA5_Debug CMakeFiles/SPA5.dir/GameRunner.cpp.obj CMakeFiles/SPA5.dir/Map.cpp.obj CMakeFiles/SPA5.dir/MapCell.cpp.obj CMakeFiles/SPA5.dir/RoomEvent.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SPA5.dir
